@@ -1,0 +1,18 @@
+{
+  "name": "expresstutorial",
+  "version": "1.0.0",
+  "description": "Express Tutorial from tutorialspoint.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felix Waldbach",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.10",
+    "multer": "^1.3.0",
+    "pug": "^2.0.1"
+  }
+}

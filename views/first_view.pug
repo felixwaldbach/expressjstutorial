@@ -1,0 +1,11 @@
+html
+    head
+        title Simple template
+    body
+        include ./header.pug
+        img(src = "/static/testimage.jpg", alt = Testimage)
+        if(user)
+            h1 Hi, #{user.name}
+        else
+            a(href = "/sign_up") Sign Up
+        include ./footer.pug
