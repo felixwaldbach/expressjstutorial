@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 
 var things = require('./things');
+var movies = require('./movies.js');
 
 var bodyParser = require('body-parser');
 var multer = require('multer');
@@ -216,6 +217,7 @@ app.get('/:id([0-9]{5})', function(req, res){
 });
 
 app.use('/things', things);
+app.use('/movies', movies);
 
 app.use('/static', express.static('public'));
 
